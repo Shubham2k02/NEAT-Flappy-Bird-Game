@@ -1,0 +1,88 @@
+pygame 2.1.2 (SDL 2.0.18, Python 3.10.2)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+
+ ****** Running generation 0 ******
+
+Population's average fitness: 2.30700 stdev: 2.19277
+Best fitness: 15.10000 - size: (1, 3) - species 1 - id 36
+Average adjusted fitness: 0.110
+Mean genetic distance 2.067, standard deviation 0.651
+Population of 100 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    0    58     15.1    0.112     0
+     2    0    42      3.8    0.109     0
+Total extinctions: 0
+Generation time: 6.998 sec
+
+ ****** Running generation 1 ******
+
+Population's average fitness: 6.83300 stdev: 22.76398
+Best fitness: 192.20000 - size: (1, 2) - species 2 - id 193
+Average adjusted fitness: 0.033
+Mean genetic distance 2.038, standard deviation 0.597
+Population of 100 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    1    45    108.2    0.029     0
+     2    1    55    192.2    0.036     0
+Total extinctions: 0
+Generation time: 35.407 sec (21.202 average)
+
+ ****** Running generation 2 ******
+
+Population's average fitness: 3.88500 stdev: 5.34562
+Best fitness: 45.20000 - size: (1, 2) - species 2 - id 193
+Average adjusted fitness: 0.069
+Mean genetic distance 1.907, standard deviation 0.584
+Population of 100 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    2    53     12.5    0.047     1
+     2    2    47     45.2    0.092     1
+Total extinctions: 0
+Generation time: 9.309 sec (17.238 average)
+
+ ****** Running generation 3 ******
+
+Population's average fitness: 10.59800 stdev: 30.92153
+Best fitness: 139.80000 - size: (1, 2) - species 2 - id 387
+Average adjusted fitness: 0.075
+Mean genetic distance 1.677, standard deviation 0.574
+Population of 100 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    3    60     12.5    0.013     2
+     2    3    40    139.8    0.136     2
+Total extinctions: 0
+Generation time: 25.877 sec (19.398 average)
+
+ ****** Running generation 4 ******
+
+Population's average fitness: 49.15700 stdev: 128.00854
+Best fitness: 528.20000 - size: (1, 2) - species 1 - id 420
+Average adjusted fitness: 0.093
+Mean genetic distance 1.636, standard deviation 0.557
+Population of 100 members in 2 species:
+   ID   age  size  fitness  adj fit  stag
+  ====  ===  ====  =======  =======  ====
+     1    4    77    528.2    0.087     0
+     2    4    23    444.4    0.099     0
+Total extinctions: 0
+Generation time: 93.967 sec (34.312 average)
+
+ ****** Running generation 5 ******
+
+Population's average fitness: 58.43400 stdev: 178.23440
+Best fitness: 906.30000 - size: (1, 2) - species 1 - id 536
+
+Best individual in generation 5 meets fitness threshold - complexity: (1, 2)
+
+Best genome:
+Key: 536
+Fitness: 906.3000000000721
+Nodes:
+        0 DefaultNodeGene(key=0, bias=-1.2142766388396578, response=1.0, activation=tanh, aggregation=sum)
+Connections:
+        DefaultConnectionGene(key=(-3, 0), weight=-1.9512117614442437, enabled=True)    
+        DefaultConnectionGene(key=(-2, 0), weight=2.2759835609535592, enabled=True)  
